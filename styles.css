@@ -1,41 +1,38 @@
 body {
-	width: 320px;
-	position: absolute;
-	left: 40%;
+	text-align: center;
 }
 
 .container{
 	border: 2px dotted gray;
 	border-bottom: solid gray;
-	padding-left: 8px; padding-right: 8px;
+ 	padding: 8px;
+	display: inline-block;
 }
 
 /* Header */
-h3 {
+h1 {
 	text-align: center;
 	margin-bottom: 15px;
 }
 
 img {
-	width: 300px;
+	width: -webkit-fill-available;
 	margin-bottom: 15px;
 }
 
 /* Animal information */
 .info {
 	background-color: beige;
-	font-size: 1.1em;
-	border: 2px gray;
+	font-size: 1.2em;
 	border-radius: 25px;
-	border-style: solid dashed;
-	width: 300px;
+	width: -webkit-fill-available;
+	padding: 5px;
 }
 
 p {
-	padding-left: 8px; padding-right: 8px;
+	padding: auto 8px;
 	text-align: justify;
     text-justify: inter-word;
-    /* text-justify property learned from https://www.w3schools.com/cssref/css3_pr_text-justify.asp */
 }
 
 .fact {
@@ -44,8 +41,29 @@ p {
 
 ul {
 	list-style: none;
-	text-indent: -32px;
 }
 li span {
 	font-weight: bold;
+}
+
+/* container width and font size responsiveness  */
+@media screen and (max-width: 280px) {
+	.info {
+		font-size: x-large;
+	}
+}
+
+@media screen and (min-width: 370px) {
+	.container{
+		width: 375px; 
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	.container{
+		width: 450px; 
+	}
+	.info {
+		font-size: 1.3em;
+	}
 }
