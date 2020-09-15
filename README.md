@@ -1,33 +1,34 @@
-# IPND Project Submissions
+# Pixel Art Maker Project
 
-**Project submissions for Udacity's [Intro To Programming Nanodegree Program](https://www.udacity.com/course/intro-to-programming-nanodegree--nd000) (old version).**
+## Table of Contents
 
-**This Nanodegree was on a scholarship provided by [Next Technology Leaders](http://techleaders.eg/) initiative.**
+* [Project Description](#project-description)
+* [Udacity Instructions](#udacity-instructions)
 
-### Table of contents:
+## Project Description
+You’ll build a single-page web app that allows users to draw pixel art on a customizable canvas.
 
-- [About IPND](#about-ipnd)
-- [About NTL](#about-ntl)
-- [Projects included](#projects-included)
+You're given starter code, including HTML and CSS, to build the application. You'll write JavaScript code that lets the user create a grid of squares representing their design, and apply colors to those squares to create a digital masterpiece!
 
-## About [IPND](https://www.udacity.com/course/intro-to-programming-nanodegree--nd000)
+Your users should be able to:
 
-Learn the basics of programming through HTML, CSS, and Python. Explore possible programming paths with our final project selection. Get confident in your ability to think and problem-solve like a programmer. Be primed and ready for our career-ready programs after mastering these projects.
+* Dynamically set the size of the table as an _N_ by _M_ grid.
+* Choose a color.
+* Click a cell in the grid to fill that cell with the chosen color.
 
-[Download Program Syllabus](https://s3-us-west-2.amazonaws.com/udacity-printer/production/syllabus/syllabus-nd000-ent-default-en-us.pdf)
+To get started, open `designs.js` from [starter code](https://github.com/udacity/project-pixel-art-maker-starter/archive/master.zip) and start building out the app's functionality.
 
-## About [NTL](http://techleaders.eg/)
+## [Udacity](https://www.udacity.com) Instructions
+Before writing any code, try loading up index.html from the starter project to see how things look! Notice that the design.js file is implemented in the <body> tag in the index.html file. Your goal is to build out the design.js file to achieve all the interactive elements on the page!
 
-H.E. Mr. President Abdel Fattah ElSisi launched the technology learning initiative “Next Technology Leaders (NTL)” to build capacity of young calibers on the latest information, communications, and electronics technologies. The Ministry of Communications and Information Technology (MCIT) leads executing the NTL Initiative through the Technology Innovation and Entrepreneurship Center of the Information Technology Industry Development Agency. Capacity building is to be orchestrated through the establishment of integral, practical, high-quality learning ecosystem, centered on the learner and supported by a distinctive content prepared through the collaborative effort of top universities and leading companies, and is made available on globally leading MOOC platforms. The ecosystem is inclusive of a nationwide network of study group mentors that coach learners and stimulate the learning process. A network of project reviewers also assess and improve the learning outcomes.
+Open up design.js. As you start writing your code, keep these three tasks in mind:
 
-## Projects included
+1. Define your variables by selecting the DOM elements that the user will interact with. This is where your JavaScript variables can come into play! For instance, the submit button, the table, and the color picker need to be accessed. The value of the color selected needs to be stored as well, since the clicked cell in the table needs to be set to the selected color.
+2. Add event listeners to the relevant DOM elements, so that user input can be color values and table sizes can be dynamically set by the user.
+3. Set the size of the cross stitch canvas as an _N_ by _M_ grid with the makeGrid() function. Use your knowledge of JavaScript loops to dynamically clear and create the table based on user input. Each cell should have an event listener that sets the background color of the cell to the selected color.
 
-This repo contains three other branches for three project submissions, all of which passed the review by Udacity team successfully.
+Now test it! When you're done, you should be able to create a canvas of any size, choose a color using the color picker, and click on the canvas's table cells to set their color.
 
-The projects are:
 
-1. Animal Trading Cards
-2. Rock Paper Scissors
-3. Pixel Art Maker
-
-- ### [Graduated](https://confirm.udacity.com/JHJYNSLG) the nanodegree program successfully on November 11, 2018.
+#### Project submitted and passed the review.
+#### [Graduated](https://confirm.udacity.com/JHJYNSLG) the nanodegree program sucessfully on November 11, 2018
