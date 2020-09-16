@@ -38,4 +38,4 @@ The projects are:
 
     use `git checkout pixel-art-maker` in bash.
 
--   ### [Graduated](https://confirm.udacity.com/JHJYNSLG) the nanodegree program successfully on November 11, 2018.
+-   ## [Graduated](https://confirm.udacity.com/JHJYNSLG) the nanodegree program successfully on November 11, 2018.
