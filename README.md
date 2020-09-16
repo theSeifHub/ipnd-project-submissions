@@ -6,9 +6,9 @@
 
 ### Table of contents:
 
-- [About IPND](#about-ipnd)
-- [About NTL](#about-ntl)
-- [Projects included](#projects-included)
+-   [About IPND](#about-ipnd)
+-   [About NTL](#about-ntl)
+-   [Projects included](#projects-included)
 
 ## About [IPND](https://www.udacity.com/course/intro-to-programming-nanodegree--nd000)
 
@@ -26,8 +26,16 @@ This repo contains three other branches for three project submissions, all of wh
 
 The projects are:
 
-1. Animal Trading Cards
-2. Rock Paper Scissors
-3. Pixel Art Maker
+1. [Animal Trading Cards](https://github.com/theSeifHub/ipnd-project-submissions/tree/animal-trading-cards)
 
-- ### [Graduated](https://confirm.udacity.com/JHJYNSLG) the nanodegree program successfully on November 11, 2018.
+    use `git checkout animal-trading-cards` in bash.
+
+2. [Rock Paper Scissors](https://github.com/theSeifHub/ipnd-project-submissions/tree/rock-paper-scissors)
+
+    use `git checkout rock-paper-scissors` in bash.
+
+3. [Pixel Art Maker](https://github.com/theSeifHub/ipnd-project-submissions/tree/pixel-art-maker)
+
+    use `git checkout pixel-art-maker` in bash.
+
+-   ### [Graduated](https://confirm.udacity.com/JHJYNSLG) the nanodegree program successfully on November 11, 2018.
